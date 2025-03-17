@@ -1,0 +1,66 @@
+[gd_scene load_steps=5 format=3 uid="uid://5fs4ayigovjx"]
+
+[ext_resource type="FontFile" uid="uid://bumqibyiuphac" path="res://Fonts/jelly_donuts (1)/Jelly Donuts.otf" id="1_jmugw"]
+[ext_resource type="Texture2D" uid="uid://hvc1utytc3qk" path="res://Assets/DOG.png" id="2_hf3nf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jmugw"]
+
+[sub_resource type="Theme" id="Theme_mpws4"]
+Button/fonts/font = ExtResource("1_jmugw")
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 0)
+Label/constants/line_spacing = 3
+Label/constants/outline_size = 0
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/constants/shadow_outline_size = 1
+Label/font_sizes/font_size = 16
+Label/fonts/font = ExtResource("1_jmugw")
+Label/styles/normal = SubResource("StyleBoxEmpty_jmugw")
+LineEdit/fonts/font = ExtResource("1_jmugw")
+RichTextLabel/fonts/normal_font = ExtResource("1_jmugw")
+TextEdit/fonts/font = null
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1752, 0.23244, 0.24, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -210.0
+offset_top = -200.0
+offset_right = 210.0
+offset_bottom = -66.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = SubResource("Theme_mpws4")
+theme_override_colors/default_color = Color(0.718, 1, 0.64, 1)
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]Work in progress[/center]"
+fit_content = true
+
+[node name="Dog" type="Sprite2D" parent="."]
+position = Vector2(425, 95)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_hf3nf")
+centered = false
