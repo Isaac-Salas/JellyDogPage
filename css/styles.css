@@ -601,6 +601,14 @@ progress {
   content: "— ";
 }
 
+.jelly-logo {
+  padding-top:10rem;
+}
+
+.pixel-image {
+  image-rendering: pixelated;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -11095,10 +11103,10 @@ body {
     line-height: 4rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1300px) {
   .masthead {
     height: 100vh;
-    padding: 0;
+    padding: 5rem;
   }
   .masthead h1, .masthead .h1 {
     font-size: 6.5rem;
