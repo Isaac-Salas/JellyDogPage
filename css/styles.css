@@ -3814,10 +3814,10 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-color: #dc9f53;
+  --bs-navbar-hover-color: #a16c21;
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
-  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-active-color: #ffd687;
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
@@ -8317,7 +8317,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background: linear-gradient(to bottom, #8eff70 0%, #ffd68780 50%, #dc9f53 100%), url(../assets/img/bg-masthead.jpg);
 }
 
 .bg-dark {
@@ -10995,13 +10995,13 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #006c82;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #ffd687;
+  border: 1px solid #ffd687;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11075,7 +11075,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, #006c8280 0%, #00de9180 50%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom,  #006c8280 0%, #00de9180 50%, #2f4858 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11119,7 +11119,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #2f4858 0%, #00de9180 80%, #00de9180 90%),  url(../assets/img/bg-masthead.jpg);
 }
 .about-section p {
   margin-bottom: 5rem;
