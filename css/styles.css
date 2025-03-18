@@ -11075,7 +11075,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, #006c82 0%, #00de91 50%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, #006c8280 0%, #00de9180 50%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
