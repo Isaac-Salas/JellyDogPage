@@ -11026,6 +11026,7 @@ body {
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
+    background: transparent;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
