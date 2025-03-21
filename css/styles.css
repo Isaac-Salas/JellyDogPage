@@ -255,7 +255,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #dc9f53;
   text-decoration: underline;
 }
 a:hover {
@@ -4249,7 +4249,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
+  --bs-card-bg: #ffd687;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -8196,7 +8196,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #dc9f53 !important;
 }
 
 .text-secondary {
@@ -8317,7 +8317,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to bottom, #8eff70 0%, #ffd68780 50%, #dc9f53 100%), url(../assets/img/bg-masthead.jpg);
+  background: linear-gradient(to bottom, #006c82 0%, #8eff7080 50%, #dc9f53 100%), url(../assets/img/bg-masthead.jpg);
 }
 
 .bg-dark {
@@ -8327,7 +8327,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #494738 !important;
 }
 
 .bg-white {
@@ -10995,7 +10995,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #006c82;
+  background: linear-gradient(to bottom, #00939c 0%, #006c82 100%);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11044,7 +11044,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #006c82;
+    background: linear-gradient(to bottom, #00939c 0%, #006c82  100%);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11149,7 +11149,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #494738 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11171,17 +11171,17 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #dc9f53;
 }
 .contact-section .card h4, .contact-section .card .h4 {
-  font-size: 0.8rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.2rem;
+  font-family: "Jersey 10", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #64a19d;
+  border-color: #dc9f53;
   border-width: 0.25rem;
   width: 3rem;
 }
