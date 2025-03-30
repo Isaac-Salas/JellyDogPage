@@ -114,6 +114,14 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.text-outline-black {
+  text-shadow: 3px 2px 0px black;
+}
+
+.text-outline-white {
+  text-shadow: 1px 1px 0px white;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -259,7 +267,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: #d68c5a;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -8261,7 +8269,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 .text-reset {
@@ -8317,7 +8325,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to bottom, #006c82 0%, #8eff7080 50%, #dc9f53 100%), url(../assets/img/bg-masthead.jpg);
+  background: linear-gradient(to bottom, #5e6685 0%, #8eff7080 50%, #3f2832 100%), url(../assets/img/JellyColPixel.png);
 }
 
 .bg-dark {
@@ -8327,7 +8335,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: #494738 !important;
+  background-color: #3f2832 !important;
 }
 
 .bg-white {
@@ -10995,7 +11003,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background: linear-gradient(to bottom, #00939c 0%, #006c82 100%);
+  background-color: #754349; 
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11036,7 +11044,7 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: #6f95b2;
+    color: #87717a;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11045,13 +11053,13 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background: linear-gradient(to bottom, #00939c 0%, #006c82  100%);
+    background-color: #754349;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #004d73;
+    color: #d68c5a;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11071,12 +11079,13 @@ body {
 
 
 .masthead {
+  image-rendering: pixelated;
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom,  #006c8280 0%, #00de9180 50%, #2f4858 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom,  #55445b 0%, #8eff7080 50%, #5e6685 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11119,11 +11128,12 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #2f4858 0%, #00de9180 80%, #00de9180 90%),  url(../assets/img/bg-masthead.jpg);
+  padding-top: 3rem;
+  background: linear-gradient(to bottom, #5e6685 0%, #8eff7080 50%, #5e6685 100%),  url(../assets/img/JellyColPixel.png);
+
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .projects-section {
@@ -11139,7 +11149,7 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 2rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
@@ -11150,7 +11160,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #494738 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #3f2832 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
