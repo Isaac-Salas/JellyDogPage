@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://g5mefetwkd0s"]
+
+[node name="Control" type="Control" unique_id=1184696498]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="ColorRect" parent="." unique_id=1139913668]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.23031491, 0.23031494, 0.23031494, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1168304852]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 87
+bbcode_enabled = true
+text = "[wave amp=50.0 freq=5.0 connected=1]Joe mama[/wave]"
+horizontal_alignment = 1
+vertical_alignment = 1
